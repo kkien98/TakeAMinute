@@ -52,7 +52,7 @@ text.style.animation='FadeOut 5s 55s forwards ease-in';
 // document.getElementById('cloud1').style.animation='animate-clouds 90s ';
 document.getElementById('End').style.animation='FadeIn 3s forwards ease-in ';
 document.getElementById('End').style.animationDelay='67s';
-document.getElementById('End').innerHTML='<div> Even if you are not beautiful, we still love you 😉 <br><br><br><br><br> From  <b><i id="teamName">WhatEver</i><b> team with love :D</div> <img src="giphy.gif" alt="" width="240" height="240">';
+document.getElementById('End').innerHTML='<div> Even if you are not beautiful, we still love you 😉 <br><br><br><br><br> From  <b><i id="teamName">WhatEver</i><b> team with love :D</div> <img src="image/giphy.gif" alt="" width="240" height="240">';
 var vid=document.getElementById('video_background');
 vid.play();
 

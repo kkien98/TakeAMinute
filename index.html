@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>TakeAMinute</title>
-
-  <link rel="stylesheet" href="./styleInput.css">
-  <link rel="stylesheet" href="./style.css">
+   because it violates the following Content Security Policy directive: "img-src data:".
+  <link rel="stylesheet" href="css/styleInput.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
   <!-- <link rel="stylesheet" href="./styleSmoke.css"> -->
-  <link rel="stylesheet" href="./styleType.css">
-  <link rel="stylesheet" href="./styleButton.css">
+  <link rel="stylesheet" href="css/styleType.css">
+  <link rel="stylesheet" href="css/styleButton.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -34,7 +35,7 @@
 
 
 
-  <script src="./script.js"></script>
+  <script src="js/script.js"></script>
   <div id="container">
     <div class="rain" id="rain">
       <div class="drop"></div>
@@ -129,7 +130,7 @@
   <div id='clip'>
     <video id="video_background" >
         
-      <source id='sourceVideo' src="chinhthuc.mp4" preload="auto" autoplay="false" loop="loop" muted volume="0" type="video/mp4" />
+      <source id='sourceVideo' src="image/chinhthuc.mp4" preload="auto" autoplay="false" loop="loop" muted volume="0" type="video/mp4" />
 
     </video>
   </div>
